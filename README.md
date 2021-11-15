@@ -30,7 +30,16 @@ Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStarti
 ![Code_pt2](https://github.com/WIPartain/VBA_Challenge/blob/main/Resources/Code_pt2.png)
 ## Results
 The analysis of the stocks yielded the following results:
+### 2017
 ![VBA_Results2017](https://github.com/WIPartain/VBA_Challenge/blob/main/Resources/VBA_Results_2017.png)
+### 2018
 ![VBA_Results2018](https://github.com/WIPartain/VBA_Challenge/blob/main/Resources/VBA_Results_2018.png)
+
 While all but one stock yielded positive results in 2017, the majority recorded a loss in 2018.  TERP was consistently down in both years while ENPH and RUN were both positive in 2017 and 2018.
+ 
+### Refactored Solution
+By refactoring the original code through the previously stated steps, we were able to greatly improve the speed of our algorithm. Despite the amount of rows in our data set, the refactored algorithm was able to generate results in one tenth of a second.
+![Refactor2017](https://github.com/WIPartain/VBA_Challenge/blob/main/Resources/VBA_Challenge_2017.png)
+![Refactor2018](https://github.com/WIPartain/VBA_Challenge/blob/main/Resources/VBA_Challenge_2018.png)
 ## Summary
+Refactoring code from a long series of conditionals helps to make it run much more efficiently.  You can potentially cut down on lines of code thus making it much simpler to organize, and it can run much faster which will aid any research conducted using that data set.  The only negative to refactoring is that it could take a considerable amount of time.  I ran into several issues trying to assemble the new array and the loops through the code however it was time well spent.  The code is more efficient, and it would be easy to make changes to the tickers and add additional rows of stock data.
